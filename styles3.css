@@ -1,0 +1,29 @@
+body {
+    background-color: #00FF00;
+}
+
+h1 {
+  font-family: 'Lucida Console', 'Lucida Sans Typewriter', monaco, 'Bitstream Vera Sans Mono', monospace;
+  	font-size: 30px;
+    color: #FF00FF;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-weight: 500;
+  	line-height: 26px;
+}
+
+.alcohol{
+  position: absolute;
+  top:6%;
+  left:5%;
+}
+
+h2 {
+  font-family: 'Lucida Console', 'Lucida Sans Typewriter', monaco, 'Bitstream Vera Sans Mono', monospace;
+  	font-size: 30px;
+    color: #FF00FF;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-weight: 500;
+  	line-height: 26px;
+}

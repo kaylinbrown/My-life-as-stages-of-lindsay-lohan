@@ -1,0 +1,88 @@
+body {
+
+  font-family:Helvetica;
+  font-style: italic;
+  font-size: 6px;
+  text-align: center;
+  background: #FF00FF;
+  /**background: #FFB6C1;*/
+
+  color: black;
+  margin-top: 10px;
+
+}
+#everything {
+position:relative;
+position: center;
+z-index: 4;
+}
+#cycle {
+  z-index: auto;
+}
+
+  .image {
+    z-index: auto;
+    position: relative;
+    position: center;
+    padding-top: -10px
+    -webkit-animation:spin 18s linear infinite;
+    -moz-animation:spin 18s linear infinite;
+    animation:spin 18s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+}
+a { text-decoration: none; color:white; }
+a:visited { text-decoration: none; }
+a:hover { background-color: white; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+.owen{
+
+}
+#wildchild {
+-webkit-transform: rotate(90deg);
+				top: 15%;
+				left: 10%;
+      }
+
+.one {
+  opacity: 1;
+}
+
+ .one:hover {
+  opacity: 0.75;
+}
+.two {
+  opacity: 1;
+}
+
+ .two:hover {
+  opacity: 0.75;
+}
+.three {
+  opacity: 1;
+}
+
+ .three:hover {
+  opacity: 0.75;
+}
+.four {
+  opacity: 1;
+}
+
+ .four:hover {
+  opacity: 0.75;
+}
+
+h1{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+line-height: 12px;
+}
+}
